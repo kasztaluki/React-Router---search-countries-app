@@ -5,6 +5,8 @@ import { Provider } from 'react-redux';
 import store from './store';
 import routes from './routes';
 
+require('./country.css');
+
 render(
     <Provider store={store}>
         <Router history={hashHistory} routes={routes}/>
